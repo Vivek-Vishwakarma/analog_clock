@@ -1,0 +1,38 @@
+#clockbg{
+    position: relative;
+    background: url(download.png) no-repeat;
+    height: 50vw;
+    width: 50vw;
+    background-size: 100%;
+    margin: auto;
+}
+#hour , #min , #second{
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    height: 23%;
+    width: 2%;
+    top: 27%;
+    left: 49.6%;
+    opacity: 0.8;
+    background-color: red;
+}
+#min{
+    height: 31%;
+    width: 1.5%;
+    top: 19%;
+    left: 50%;
+    opacity: 0.8;
+    background-color: green;
+}
+#second{
+    height: 37%;
+    width: 1%;
+    top: 13%;
+    left: 50%;
+    opacity: 0.8;
+    background-color: blue;
+}
